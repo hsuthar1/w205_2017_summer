@@ -56,7 +56,7 @@ NEW_FILE="Measures.csv"
 tail -n +2 "$OLD_FILE" > $NEW_FILE
 
 # copy files to hdfs
-hdfs dfs -put $NEW_FILE /user/w205/hospital_compare/Measures
+hdfs dfs -put $NEW_FILE /user/w205/hospital_compare/measures
 
 # remove first line of files and rename
 OLD_FILE="hvbp_hcahps_11_10_2016.csv"
