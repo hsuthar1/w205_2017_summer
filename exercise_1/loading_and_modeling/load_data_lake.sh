@@ -23,7 +23,7 @@ hdfs dfs -mkdir /user/w205/hospital_compare
 hdfs dfs -mkdir /user/w205/hospital_compare/hospitals
 hdfs dfs -mkdir /user/w205/hospital_compare/effective_care
 hdfs dfs -mkdir /user/w205/hospital_compare/readmissions
-hdfs dfs -mkdir /user/w205/hospital_compare/Measures
+hdfs dfs -mkdir /user/w205/hospital_compare/measures
 hdfs dfs -mkdir /user/w205/hospital_compare/surveys_responses
 
 # remove first line of files and rename
