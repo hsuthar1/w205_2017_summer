@@ -1,4 +1,6 @@
-ave my current directory
+#!/bin/bash
+
+# save my current directory
 MY_CWD=$(pwd)
 
 # create staging directories
@@ -51,7 +53,7 @@ tail -n +2 "$OLD_FILE" > $NEW_FILE
 hdfs dfs -put $NEW_FILE /user/w205/hospital_compare
 
 # remove first line of files and rename
-OLD_FILE="hvbp_hcahps_05_28_2015.csv"
+OLD_FILE="hvbp_hcahps_11_10_2016.csv"
 NEW_FILE="surveys_responses.csv"
 tail -n +2 "$OLD_FILE" > $NEW_FILE
 
