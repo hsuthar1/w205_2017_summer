@@ -10,6 +10,6 @@ SELECT provider_id, hospital_name, state, condition, score, measure_id
 FROM effective_care;
 
 DROP TABLE read_deaths;
-CREATE TABLE ER_read_deaths AS
+CREATE TABLE read_deaths AS
 SELECT provider_id, hospital_name, state, score
 FROM readmissions;
