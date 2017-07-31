@@ -1,4 +1,4 @@
-OP TABLE hospitals;
+DROP TABLE hospitals;
 
 CREATE EXTERNAL TABLE hospitals
 (
