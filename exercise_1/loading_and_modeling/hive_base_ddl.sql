@@ -53,15 +53,13 @@ CREATE EXTERNAL TABLE effective_care
   zip_code string,
   county string,
   phone string,
-  measure_name string,
+  condition string,
   measure_id string,
-  compare_to_national string,
-  denominator string,
+  measure_name string,
   score string,
-  lower_estimate string,
-  higher_estimate string,
+  sample string,
   footnote string,
-  measure_state_date string,
+  mesaure_start_date string,
   measure_end_date string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
@@ -207,4 +205,3 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION "/user/w205/hospital_compare/surveys_responses"
 ;
-
