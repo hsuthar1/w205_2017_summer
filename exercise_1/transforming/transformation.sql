@@ -11,5 +11,5 @@ FROM effective_care;
 
 DROP TABLE read_deaths;
 CREATE TABLE read_deaths AS
-SELECT provider_id, hospital_name, state, score
+SELECT hospital_name, state, score
 FROM readmissions;
