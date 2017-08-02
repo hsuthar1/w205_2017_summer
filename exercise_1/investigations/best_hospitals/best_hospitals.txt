@@ -1,0 +1,26 @@
+The following 10 hospitals can be considered as models of high quality care.
+
+HOSPITAL PAVIA SANTURCE 701.0
+HOSPITAL UNIVERSITARIO DR RUIZ ARNAU	647.0
+HOSPITAL DR SUSONI INC	540.6666666666666
+HOSPITAL SAN FRANCISCO	479.0
+HOSPITAL METROPOLITANO DR TITO MATTEI	403.5
+HOSP COMUNITARIO BUEN SAMARITANO	342.6
+HOSPITAL DR CAYETANO COLL Y TOSTE	325.6666666666667
+BELLA VISTA HOSPITAL	322.25
+HIMA SAN PABLO HUMACAO	293.6666666666667
+HOSPITAL DE LA CONCEPCION	282.75
+
+This analysis was done by taking the average score of all conditions treated
+per hospital, ranking the hospitals in descending order, and then taking the
+top 10 results.
+
+The average of all condition scores serves as a general metric to rate each
+hospital based on treated conditions.  While a more accurate metric would
+be to count the unique conditions each hospital treats, take the average
+of each condition per hospital, and then compare those two metrics among
+hospitals (the number of conditions treated and the average score for each
+condition) using some sort of weight system, this serves as a good baseline
+metric for evaluating hospitals at a glance.  Furthermore, the sample size
+is important as well in rating a hospital, something that is not taken into
+account as part of this "at a glance" analysis.  
