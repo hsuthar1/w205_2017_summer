@@ -1,0 +1,26 @@
+The following 10 states can be considered as models of high quality care.
+
+PR      235.46428571428572
+GU	139.0
+VI	123.5
+DC	114.82474226804123
+MD	102.99501661129568
+NY	96.86136255359695
+DE	96.52380952380952
+CA	96.01456703533854
+NH	94.869918699187
+NV	93.51155115511551
+
+This analysis was done by taking the average score of all conditions treated
+per state, ranking the states in descending order, and then taking the
+top 10 results.
+
+The average of all condition scores serves as a general metric to rate each
+state based on treated conditions.  While a more accurate metric would
+be to count the unique conditions each hospital in each state treats, take the
+average of each condition per hospital, and then compare those two metrics among
+states (the number of conditions treated and the average score for each
+condition) using some sort of weight system, this serves as a good baseline
+metric for evaluating states at a glance.  Furthermore, the sample size
+is important as well in rating a state, something that is not taken into
+account as part of this "at a glance" analysis.
