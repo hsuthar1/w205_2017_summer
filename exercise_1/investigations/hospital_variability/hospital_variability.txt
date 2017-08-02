@@ -1,0 +1,23 @@
+Below are the conditions with the greatest variance among hospitals.
+
+Emergency Department	3844	101.07827674118974	50.94344575499302
+Cataract surgery outcome	57	85.14035087719299	29.2661343094838
+Blood Clot Prevention and Treatment	2073	65.94287264833575	25.388026013639568
+Colonoscopy care	2813	82.4947511271365	19.70081943407333
+Stroke Care	943	90.9761399787911	15.365734582605334
+Preventive Care	4149	87.67703781030512	12.279334049987678
+Heart Attack or Chest Pain	2199	51.72098302258603	8.476747951270756
+Pregnancy and Delivery Care	2434	2.1260636355336437	4.4841908828542705
+
+This study was conducted by first taking the average score per hospital
+per condition, and then calculating the standard deviation of the hospital
+scores per condition, resulting in the table we see above (Columns: Condition,
+Count of Hospitals that Treated Condition, Average Score of all Hospitals
+for that Condition, standard deviation among hospitals).
+
+We see that the Emergency Department had the greatest variability in score,
+while Pregnancy and Delivery of Care had the lowest variability (implying
+more consistent scores across hospitals).  The standard deviation is used
+because it is essentially a measure of how far away data points are from the
+mean.  In this case, it measures how far each hospital average score is from
+the general average score for that condition.  
